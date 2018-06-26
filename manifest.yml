@@ -1,0 +1,9 @@
+---
+applications:
+- name: feedin
+  host: feedin-i851169
+  memory: 128MB
+  disk_quota: 1G
+  random-route: true
+  buildpack: python_buildpack
+  command: python app.py
